@@ -1,0 +1,135 @@
+@font-face {
+	font-family: 'Mecha Bold';
+	src: url('../font/mecha-bold.eot');
+	src: url('../font/mecha-bold.woff') format('woff'),
+		 url('../font/mecha-bold.ttf') format('truetype'),
+		 url('../font/mecha-bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	font-size: 19px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	background-color: #444;
+	color: #444;
+}
+
+@media (min-width: 500px) {
+	html {
+		font-size: 21px;
+	}
+}
+
+@media (min-width: 700px) {
+	html {
+		font-size: 23px;
+	}
+}
+
+body {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+section {
+	padding: 10px;
+	margin: 0;
+}
+
+img {
+	border-radius: 2px;
+}
+
+h1 {
+	font-family: 'Mecha Bold', sans-serif;
+	font-size: 3.25rem;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-shadow: #bbb 3px 3px;
+	letter-spacing: 2px;
+	line-height: 1;
+	padding: 30px 10px 0 10px;
+	margin: 0;
+}
+
+
+
+.device-container {
+	width: 100%;
+	height: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.device {
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 67.5%;
+	height: 0;
+}
+
+.device > iframe {
+	background: url(/images/ipad.svg) center center no-repeat;
+	background-size: contain;
+	padding: 5% 10%;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.main {
+	margin-top: 0;
+	padding-top: 0;
+	border-bottom: 1px solid #bbb;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+	background: url(/images/background.png) #fefefe;
+}
+
+.tagline {
+	margin-top: 30px;
+}
+
+.social-links {
+	padding: 0;
+	margin: 0;
+}
+
+.social-link {
+	list-style-type: none;
+	display: inline-block;
+	margin: 30px 10px;
+	font-size: 0.75rem;
+}
+
+.social-link > a:hover {
+	opacity: 0.9;
+}
+
+.author {
+	font-size: 0.75rem;
+	margin: 0 0 20px 0;
+}
+
+.footer,
+.footer a:link,
+.footer a:visited {
+	color: #bbb;
+}
+
+.footer a:link,
+.footer a:visited {
+	text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:active {
+	text-decoration: underline;
+}
